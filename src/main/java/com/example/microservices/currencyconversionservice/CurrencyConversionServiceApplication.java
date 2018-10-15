@@ -16,7 +16,6 @@ public class CurrencyConversionServiceApplication {
 		SpringApplication.run(CurrencyConversionServiceApplication.class, args);
 	}
 	@Bean
-	public Sampler defaultSampler(){
-		return Sampler.ALWAYS_SAMPLE;
+	public Sampler defaultSampler(){		return Sampler.ALWAYS_SAMPLE;
 	}
 }
